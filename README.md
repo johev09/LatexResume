@@ -8,8 +8,8 @@ This project uses [Latex Workshop](https://marketplace.visualstudio.com/items?it
 
 1. Install [VSCode](https://code.visualstudio.com/).
 2. Install [Latex Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) extension.
-3. Install [VS Code Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
-4. Install [Docker Desktop](https://www.docker.com/products/docker-desktop).
+3. Install [Docker Desktop](https://www.docker.com/products/docker-desktop).
+4. Install [VS Code Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
 5. Open this directory in VSCode.
 6. Execute `Remote-Containers: Reopen in Container` in the VS Code Command Palette.
 
