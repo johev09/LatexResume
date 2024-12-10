@@ -13,9 +13,10 @@ This project uses [Latex Workshop](https://marketplace.visualstudio.com/items?it
 5. Open this directory in VSCode.
 6. Execute `Remote-Containers: Reopen in Container` in the VS Code Command Palette.
 
-## ⚠️ Issues
+## ✅ Fixed Issues
 
-### [✅ Fixed] Latex not auto-building on file change
+### [ ✅ Fixed ] Latex not auto-building on file change
+
 **⚠️ Issue:**
 
 [resume.pdf] was not updating when saving any file other than [resume.tex]. This made it difficult to reflect changes while editing, as I had to return to [resume.tex] and save it manually.
