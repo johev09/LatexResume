@@ -13,9 +13,22 @@ This project uses [Latex Workshop](https://marketplace.visualstudio.com/items?it
 5. Open this directory in VSCode.
 6. Execute `Remote-Containers: Reopen in Container` in the VS Code Command Palette.
 
+## ✨ Features
+
+### ✨ Auto-generate PDF on file update
+
+[resume.pdf] is auto-generated when you update any `.tex` file.
+
+### ✨ Jump to source from PDF
+<kbd>Cmd</kbd> / <kbd>Ctrl</kbd> + Click anywhere on PDF to jump to source.
+
+Learn more:
+- [Add ability to jump to cursor position · Issue #1304 · James-Yu/LaTeX-Workshop](https://github.com/James-Yu/LaTeX-Workshop/issues/1304#issuecomment-482891870)
+- ["Go to Source" for Latex on VS Code does not seem to work](https://tex.stackexchange.com/questions/538797/go-to-source-for-latex-on-vs-code-does-not-seem-to-work)
+
 ## ✅ Fixed Issues
 
-### [ ✅ Fixed ] Latex not auto-building on file change
+### ✅ FIXED: Latex not auto-building on file change
 
 **⚠️ Issue:**
 
@@ -23,9 +36,11 @@ This project uses [Latex Workshop](https://marketplace.visualstudio.com/items?it
 
 **✅ Fix:**
 
-This is a known issue as mentioned in the [extensions wiki](https://github.com/James-Yu/LaTeX-Workshop/wiki/FAQ#auto-build-does-not-work-sometimes):
+This is a known issue as mentioned in the [extensions wiki](https://github.com/James-Yu/LaTeX-Workshop/wiki/FAQ#auto-build-does-not-work-sometimes) and is fixed with the following setting:
 > Please try setting [`latex-workshop.latex.autoBuild.run`](https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-workshoplatexautobuildrun) to `onSave`.
 > Reload vscode to make any change in this configuration effective.
+
+ref: [Latex file on vs code does not autocompile on save](https://stackoverflow.com/questions/57925552/latex-file-on-vs-code-does-not-autocompile-on-save)
 
 ## References
 
