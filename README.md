@@ -1,5 +1,4 @@
 
-
 # Latex Resume
 
 This project uses [Latex Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) extension of [VSCode](https://code.visualstudio.com/) to auto-build latex files to create [resume.pdf].
@@ -13,6 +12,9 @@ This project uses [Latex Workshop](https://marketplace.visualstudio.com/items?it
 5. Open this directory in VSCode.
 6. Execute `Remote-Containers: Reopen in Container` in the VS Code Command Palette.
 
+> [!WARNING]  
+> If something doesn't work, try opening and saving any .`tex` file once. This helps initialize the Latex extension properly.
+
 ## ✨ Features
 
 ### ✨ Auto-generate PDF on file update
@@ -20,6 +22,7 @@ This project uses [Latex Workshop](https://marketplace.visualstudio.com/items?it
 [resume.pdf] is auto-generated when you update any `.tex` file.
 
 ### ✨ Jump to source from PDF
+
 <kbd>Cmd</kbd> / <kbd>Ctrl</kbd> + Click anywhere on PDF to jump to source.
 
 Learn more:
