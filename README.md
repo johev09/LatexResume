@@ -13,7 +13,7 @@ This project uses [Latex Workshop](https://marketplace.visualstudio.com/items?it
 6. Execute `Remote-Containers: Reopen in Container` in the VS Code Command Palette.
 
 > [!WARNING]  
-> If something doesn't work, try opening and saving any .`tex` file once. This helps initialize the Latex extension properly.
+> If something doesn't work, try opening and saving any `.tex` file once. This helps initialize the Latex extension properly.
 
 ## ✨ Features
 
